@@ -56,7 +56,6 @@ int area ;
 area = length * width ;
 printf("area is = %d m2", area);
 
-
 return 0;
 
 }
