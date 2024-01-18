@@ -18,7 +18,11 @@ int main() {
   printf("\n");
 
   // \"  create ""
-  printf("hi I am a \"student\" ");
+  printf("hi I am a \"student\" \n");
+
+
+  // comments
+  printf("salut from me"); // this line is a comment 
 
   return 0;
 
