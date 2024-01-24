@@ -64,6 +64,50 @@ int main(){
     v /= 4 ;
     printf("%d\n",v);
 
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////   Comparison Operators
+
+//////////////////////////// operator  > and <  
+   int k = 7;
+   int l = 6;
+   printf("%d\n", k > l) ; // true(1)
+   printf("%d\n", k < l) ; // false(0)
+
+//////////////////////////// operator  == and !=
+   int p = 4;
+   int o = 4;
+   printf("%d\n", p == o); // true(1)
+   printf("%d\n", p != o); // false(0) 
+
+///////////////////////////
+   int m = 5;
+   int n = 5;
+   printf("%d\n", m >= n); // true(1)
+   printf("%d\n", m <= n); // true(1)
+
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////   Logical Operators
+/////////////////////////// operator && and || 
+   int h = 9;
+   int g = 7;
+   printf("%d\n", h > 8 && g < 8); // true(1)
+   printf("%d\n", h > 8 || g > 8 ); // true(1)
+
+///////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////  SizeOf Operator
+// %lu 
+
+int myInt;
+float myFloat;
+double myDouble;
+char myChar;
+
+printf("%lu\n",sizeof(myInt));    // 4byte
+printf("%lu\n",sizeof(myFloat));  // 4byte
+printf("%lu\n",sizeof(myDouble)); // 8byte
+printf("%lu\n",sizeof(myChar));  //  1byte
+
+
 return 0;
 
 }
